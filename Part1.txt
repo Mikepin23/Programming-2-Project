@@ -1,0 +1,18 @@
+We created a static method with the Airplane[] flyingObjects array set as a parameter.
+
+Two UAV variables are created, one for the least expensive and the other for the most expensive and they are both set to null.
+
+A for loop is created and cycles through the flyingObjects array. If an instance of UAV subclass is found, It is then type casted from Airplane to UAV. Essentially sorting only through the UAV subclasses.
+
+The flyingObjects[i] are compared using two if statements. One to determine the least expensive and the other the most expensive. If the conditions are met, they are stored as the two variables that we created earlier on.
+
+We have now exited our for loop. It is then followed by if statements. If neither UAV variables are null. The least and most expensive UAV's are printed using the .toString.
+
+The next if statement checks if only the least expensive is not null. If the condition is met, only the least expensive variable has been stored and is then printed.
+
+Finally the else statement. If this condition is met, meaning no UAV objects were created in the array, No UAV's is printed.
+
+The correctness of the method seems like a success.
+
+
+
