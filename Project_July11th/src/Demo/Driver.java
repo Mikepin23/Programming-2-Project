@@ -63,7 +63,6 @@ public static void findLeastAndMostExpensiveUAV(Airplane[] flyingObjects) {
         System.out.println("Are flyingObjects[4] and flyingObjects[5] equal? " +
                 flyingObjects[4].equals(flyingObjects[5]));
         
-        // Two objects with similar values
         System.out.println("Are flyingObjects[1] and flyingObjects[6] equal? " +
                 flyingObjects[1].equals(flyingObjects[6]));
 		
